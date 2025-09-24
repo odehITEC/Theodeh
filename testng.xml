@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test name="ChecktheSearchFunctionality">
+    <classes>
+      <class name="com.ahmadclass.AmazonHomePage"/>
+    </classes>
+  </test>
+  
+  <test name="CheckingTheLovFunc">
+    <classes>
+      <class name="com.ahmadclass.LovsChecking"/>
+    </classes>
+  </test>
+</suite>
