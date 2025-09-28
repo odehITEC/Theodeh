@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Maven
+target/
+
+# TestNG reports
+test-output/

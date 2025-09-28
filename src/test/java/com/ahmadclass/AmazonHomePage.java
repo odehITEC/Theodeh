@@ -12,11 +12,19 @@ import org.openqa.selenium.support.ui.Select;
 
 public class AmazonHomePage {
 
-    //this change has been done on git main repo through git is it showing
     private WebDriver driver;
     @Test
     public void testAmazonSearch() {
         // Setup ChromeDriver using WebDriverManager
+    	// Setup ChromeDriver using WebDriverManager
+    	//asdasdasd
+    	// Setup ChromeDriver using WebDriverManager
+    	// Setup ChromeDriver using WebDriverManager
+    	// Setup ChromeDriver using WebDriverManager
+    	// Setup ChromeDriver using WebDriverManager
+    	// Setup ChromeDriver using WebDriverManager
+    	// Setup ChromeDriver using WebDriverManager
+    	
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         // Add implicit wait
@@ -41,16 +49,4 @@ public class AmazonHomePage {
         driver.quit();
     }
 }
-/*
-        WebDriver driver = new ChromeDriver();
-        driver.get("https://www.google.com");
-        driver.findElement(By.cssSelector("[href=\"https://www.google.com/setprefs?sig=0_G7A_IeZnO37jU2sSZKY7jzAKaCs%3D&hl=en&source=homepage&sa=X&ved=0ahUKEwj8mqyArtaPAxURWUEAHTtnAO8Q2ZgBCBY\"]")).click() ; 
-        driver.findElement(By.cssSelector("[title=\"Search\"]")).sendKeys("Ahmad") ; 
-        driver.findElement(By.cssSelector("div>center>[aria-label=\"Google Search\"][role=\"button\"]")).click() ; 
-        
-        
 
-        System.out.println("Page title is: " + driver.getTitle());
-
-        driver.quit(); 
-       */
