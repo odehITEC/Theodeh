@@ -16,6 +16,9 @@ public class AmazonHomePage {
     @Test
     public void testAmazonSearch() {
     	
+    	//section change by ahmad odeh branch
+    	//new change introuced by ahmad odeh branch
+    	
     	//this commit is from github desktop
         // Setup ChromeDriver using WebDriverManager
     	// Setup ChromeDriver using WebDriverManager
