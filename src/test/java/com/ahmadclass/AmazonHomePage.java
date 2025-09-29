@@ -16,6 +16,8 @@ public class AmazonHomePage {
     @Test
     public void testAmazonSearch() {
     	
+    	//MOVE CHANGE FROM AHMAD ODEH TO WALAA
+    	
     	//now this change is from Ahmad Odeh
     	
 
