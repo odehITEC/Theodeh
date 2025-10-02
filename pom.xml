@@ -26,14 +26,13 @@
         <scope>test</scope>
     </dependency>
 
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter</artifactId>
-      <version>5.10.0</version>
-      <scope>test</scope>
-    </dependency>
+
 
   </dependencies> 
+  
+  <profiles>
+  <profile>
+  <id>Regression</id>
   
   <build>
     <plugins>
@@ -46,7 +45,25 @@
           <target>1.8</target>
         </configuration>
       </plugin>
+      
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.5.4</version>
+        <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>testng.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>
+      </plugin>
+      
     </plugins>
   </build>
-
+  
+  </profile>
+  
+  </profiles>
+  
+  
+  
 </project>
